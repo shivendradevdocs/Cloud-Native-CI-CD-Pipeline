@@ -1,0 +1,13 @@
+{
+  "name": "jc-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node src/index.js",  
+    "build": "echo \"Static build placeholder\"",
+    "test": "node --eval \"console.log('no frontend tests configured')\""
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

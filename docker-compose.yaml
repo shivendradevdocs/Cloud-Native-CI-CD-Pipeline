@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  backend:
+    build: ./app/backend
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development
+
+  frontend:
+    build: ./app/frontend
+    ports:
+      - "8081:8080"
+    depends_on:
+      - backend
