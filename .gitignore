@@ -1,0 +1,13 @@
+# Node modules
+app/backend/node_modules/
+app/frontend/node_modules/
+
+
+# Environment files
+.env
+.env.*.local
+
+
+# OS files
+.DS_Store
+Thumbs.db
